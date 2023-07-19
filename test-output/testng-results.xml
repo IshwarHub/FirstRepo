@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Priority 1 is running]]>
+    </line>
+    <line>
+      <![CDATA[priority 2 is running]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-01T16:23:54 IST" name="Default suite" finished-at="2023-07-01T16:23:54 IST" duration-ms="69">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T16:23:54 IST" name="Default test" finished-at="2023-07-01T16:23:54 IST" duration-ms="69">
+      <class name="practice_Testng.Priority">
+        <test-method signature="priorityTest()[pri:1, instance:practice_Testng.Priority@2fb3536e]" started-at="2023-07-01T16:23:54 IST" name="priorityTest" finished-at="2023-07-01T16:23:54 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Priority 1 is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priorityTest -->
+        <test-method signature="prioriyTest2()[pri:2, instance:practice_Testng.Priority@2fb3536e]" started-at="2023-07-01T16:23:54 IST" name="prioriyTest2" finished-at="2023-07-01T16:23:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[priority 2 is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- prioriyTest2 -->
+      </class> <!-- practice_Testng.Priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
